@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prank Match winrate ML</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="ml-icon.jpg" alt="logo" width="300px" height="200px" />
+    <h1>Generate your code now <span>Prank Your Team</span></h1>
+    <form>
+      <div class="head">
+        <label class="switch">
+          <input type="checkbox" id="switch-button" v />
+          <span class="slider round"></span>
+        </label>
+        <h2 class="headText">Winrate Matches Generate</h2>
+      </div>
+      <p class="backText">Top and Mmr Generate</p>
+
+      <p>Enter Hero Name:</p>
+      <input type="text" id="hero" />
+      <p class="label2">Enter Total matches:</p>
+      <input type="text" id="total" required />
+      <p class="label3">Enter Won matches:</p>
+      <input type="text" id="won" required />
+      <p id="note">
+        Total matches and won matches will be generate your winrate
+      </p>
+      <button id="button">Generate</button>
+      <p id="output"></p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
